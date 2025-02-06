@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>CodeConnect</title>
 </head>
+
 <body>
     <aside>
         <img src="./img/Logo.svg" alt="logo do codeconnect">
@@ -46,6 +48,7 @@
             </ul>
         </nav>
     </aside>
+
     <main>
         <div class="container-upload-imagem">
             <div class="container-imagem">
@@ -71,13 +74,10 @@
                 </div>
                 <div>
                     <label for="categoria">Tags</label>
-                    <input type="text" id="categoria" name="categoria" />
+                    <input type="text" name="categoria" id="input-tags" />
                 </div>
-                <ul class="lista-tags">
-                    <li>
-                        <p>Front-end</p>
-                        <img src="./img/close-black.svg">
-                    </li>
+                <ul class="lista-tags" id="lista-tags">
+
                 </ul>
                 <div class="container-botoes">
                     <button class="botao-descartar">Descartar</button>
@@ -86,6 +86,8 @@
             </form>
         </div>
     </main>
-    <script src="scripts.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
